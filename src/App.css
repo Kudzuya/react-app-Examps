@@ -1,0 +1,23 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.blog--preview{
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fff;
+}
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.blog-preview h2{
+  font-size: 20px;
+  color: red;
+  margin-bottom: 8px;
+}
